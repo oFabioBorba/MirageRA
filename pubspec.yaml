@@ -1,0 +1,23 @@
+name: mirage_ar_ofc
+description: "Mirage AR OFC - Visualizador 3D com Realidade Aumentada"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  model_viewer_plus: ^1.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  assets:
+    - assets/models/modelAR.glb
+    - assets/models/modelo2.glb
